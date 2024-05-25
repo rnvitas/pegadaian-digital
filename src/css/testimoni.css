@@ -1,0 +1,89 @@
+:root {
+  --primary-1: #00ab4e;
+  --primary-2: #039344;
+  --primary-3: #039344;
+  --primary-4: #c8facb;
+  --secondary: #ffd344;
+  --black: #000000;
+  --white: #ffffff;
+  --text: #252528;
+  --bg-light-green: #effff0;
+}
+
+.container-testimoni {
+  margin-top: 3rem;
+  /* margin-bottom: 5rem; */
+}
+
+.headline-testimoni {
+  color: var(--primary-1);
+}
+
+.heading-testimoni {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline-testimoni {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.64px;
+}
+
+.carosel-testimoni {
+  margin-top: 3rem;
+  /* margin-bottom: 10rem; */
+}
+
+.card-testimoni {
+  /* display: flex; */
+  width: 381px;
+  padding: 12px 24px;
+  margin-bottom: 2rem;
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  /* margin-right: 1rem; */
+  gap: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.15);
+}
+
+.petik {
+  color: var(--primary-2);
+  /* font-family: "Nunito Sans"; */
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+
+.desc-testimoni {
+  color: #000;
+  /* font-family: "Nunito Sans"; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+
+.by-testimoni {
+  color: var(--primary-1);
+  /* font-family: "Nunito Sans"; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.24px;
+  /* margin: 1rem; */
+}
+
+.slick-slide {
+  padding-right: 20px;
+}

@@ -1,0 +1,27 @@
+:root {
+  --primary-1: #00ab4e;
+  --primary-2: #039344;
+  --primary-3: #039344;
+  --primary-4: #c8facb;
+  --secondary: #ffd344;
+  --black: #000000;
+  --white: #ffffff;
+  --text: #252528;
+  --bg-light-green: #effff0;
+}
+
+.wrapper-body {
+  max-width: 1300px;
+  position: static;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:wght@600&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+}

@@ -1,0 +1,60 @@
+:root {
+  --primary-1: #00ab4e;
+  --primary-2: #039344;
+  --primary-3: #039344;
+  --primary-4: #c8facb;
+  --secondary: #bcd736;
+  --black: #000000;
+  --white: #ffffff;
+  --text: #252528;
+  --bg-light-green: #effff0;
+}
+
+.container-benefits {
+  background-color: white;
+  margin-top: 3rem;
+}
+
+.heading-benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.headline-benefits {
+  color: var(--primary-1);
+  text-align: center;
+}
+
+.card-benefits {
+  display: inline-flex;
+  padding: 28px 40px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  border: 3px solid var(--Primary-1, #00ab4e);
+}
+
+.content-benefits {
+  /* margin-top: 3rem; */
+  display: flex;
+  flex-direction: row;
+}
+
+.title-benefits {
+  color: var(--primary-1);
+  font-weight: 700;
+}
+
+.desc-benefits {
+  color: var(--text);
+}
+
+.img-benefit img {
+  /* max-width: 100%; */
+  width: 100%;
+}

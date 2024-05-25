@@ -1,0 +1,70 @@
+:root {
+  --primary-1: #00ab4e;
+  --primary-2: #039344;
+  --primary-3: #039344;
+  --primary-4: #c8facb;
+  --secondary: #ffd344;
+  --black: #000000;
+  --white: #ffffff;
+  --text: #252528;
+  --bg-light-green: #effff0;
+}
+
+.container-hero {
+  background-color: var(--primary-2);
+  background-size: auto; /* Cover the container with the image */
+  overflow: hidden; /* Hide overflowing content */
+  /* margin-bottom: -5rem; */
+}
+
+.hero-img {
+  /* flex-shrink: 0; */
+  position: relative;
+  bottom: -10px; /* Align bottom edge of image with bottom of section */
+  right: 0;
+  /* top: 3px; */
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+
+.subheadline-hero {
+  margin: 24px auto;
+}
+
+.tagline {
+  color: var(--secondary);
+}
+
+.lg-playstore {
+  max-width: 100%;
+  width: 20%;
+  margin-right: 20px;
+}
+
+.lg-appstore {
+  max-width: 100%;
+  width: 20%;
+}
+
+.logo-download {
+  margin: 24px auto;
+}
+
+.ojk-section img {
+  /* margin-bottom: 2rem; */
+  width: 15%;
+}
+
+@media (max-width: 768px) {
+  /* Adjust breakpoint as needed */
+  .hero-image {
+    flex-direction: row; /* Change to row layout for smaller screens */
+    justify-content: space-between; /* Distribute space between items */
+  }
+}
+
+@media (max-width: 499px) {
+  .hero-image {
+  }
+}

@@ -1,0 +1,37 @@
+:root {
+  --primary-1: #00ab4e;
+  --primary-2: #039344;
+  --primary-3: #039344;
+  --primary-4: #c8facb;
+  --secondary: #ffd344;
+  --black: #000000;
+  --white: #ffffff;
+  --text: #252528;
+  --bg-light-green: #effff0;
+}
+
+.container-security {
+  background-color: var(--bg-light-green);
+}
+
+.heading-security {
+  margin-top: 3rem;
+}
+
+.title-security {
+  color: var(--primary-2);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.64px;
+}
+
+.desc-security {
+  margin-top: 2rem;
+}
+
+.desc-security p {
+  font-size: 16px;
+  line-height: normal;
+}
