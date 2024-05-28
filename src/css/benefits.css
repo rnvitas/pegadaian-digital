@@ -29,7 +29,7 @@
 }
 
 .card-benefits {
-  display: inline-flex;
+  display: block;
   padding: 28px 40px;
   margin-bottom: 20px;
   flex-direction: column;

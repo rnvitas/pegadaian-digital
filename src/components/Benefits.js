@@ -6,15 +6,55 @@ function Benefits() {
   const benefitData = [
     {
       judul: "1. Gadai Cepat, Mudah dan Aman",
-      desc: "<li>Gadai barang berharga Anda tanpa antri di kantor Pegadaian. Dapatkan dana cair langsung ke rekeningmu. Mager keluar rumah? mau disamperin atau barang dianterin cukup gunakan fitur Gadai dari Rumah.</li>",
+      desc: (
+        <div>
+          <li>
+            {" "}
+            Gadai barang berharga Anda <b>tanpa antri</b> di kantor Pegadaian.
+          </li>
+          <li>
+            Dapatkan <b>dana cair</b> langsung ke rekeningmu.
+          </li>
+          <li>
+            Mager keluar rumah? mau disamperin atau barang dianterin cukup
+            gunakan fitur <b>Gadai dari Rumah.</b>
+          </li>
+        </div>
+      ),
     },
     {
-      judul: "2. Bunga Kompetitif dan Transparan",
-      desc: "<li>Bunga Pegadaian Digital kompetitif dan transparan, tidak ada biaya tersembunyi. Kamu bisa simulasikan bunga dan angsuran sebelum gadai.</li>",
+      judul: "2. Bayar Angsuran Tepat Waktu",
+      desc: (
+        <div>
+          <li>
+            <b>Pengingat Jatuh Tempo:</b> Dapatkan notifikasi otomatis sebelum
+            tagihanmu jatuh tempo!
+          </li>
+          <li>
+            <b>Kartu Angsuran:</b> Cek sisa angsuran dan tanggal jatuh tempo
+            dengan mudah.
+          </li>
+        </div>
+      ),
     },
     {
-      judul: "3. Transaksi Aman dan Terjamin",
-      desc: "<li>Pegadaian Digital terdaftar dan diawasi oleh OJK, sehingga transaksimu aman dan terjamin.</li>",
+      judul: "3. Lebih Dari Gadai",
+      desc: (
+        <div>
+          <li>
+            <b>Tabungan</b> dan <b>Cicilan Emas:</b> Simpan dan miliki emas
+            impianmu dengan mudah, aman, dan fleksibel.
+          </li>
+          <li>
+            Bayar <b>tagihan bulanan,</b> isi saldo
+            <b>e-wallet,</b> dan beli <b>pulsa</b> dengan mudah dan praktis
+            dalam satu aplikasi!
+          </li>
+          <li>
+            <b>Dan masih banyak lagi!</b>
+          </li>
+        </div>
+      ),
     },
   ];
   return (
