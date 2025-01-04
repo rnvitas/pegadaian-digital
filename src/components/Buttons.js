@@ -1,11 +1,7 @@
 import "../css/button.css";
 
 function Buttons(props) {
-  return (
-    <a className="btnnya-primary" href="#">
-      {props.btn_name}
-    </a>
-  );
+  return <div className="btnnya-primary">{props.btn_name}</div>;
 }
 
 export default Buttons;

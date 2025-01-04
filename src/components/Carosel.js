@@ -51,15 +51,15 @@ function Carosel() {
     <div className="slider-container">
       <Slider {...settings}>
         <div className="img-benefit">
-          <img src={Image1} className=""></img>
+          <img src={Image1} className="" alt="" />
         </div>
 
         <div className="img-benefit">
-          <img src={Image2} className=""></img>
+          <img src={Image2} className="" alt="" />
         </div>
 
         <div className="img-benefit">
-          <img src={Image3} className=""></img>
+          <img src={Image3} className="" alt="" />
         </div>
       </Slider>
     </div>
